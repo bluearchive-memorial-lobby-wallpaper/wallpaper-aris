@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "kind": "pipeline-binary-package",
+  "immutable": true,
+  "variantId": "default",
+  "canonicalId": "aris-default",
+  "studentId": "aris",
+  "runId": "run-000000000281",
+  "runInfo": {
+    "alias": "create-prepare-and-acceptance",
+    "stages": [
+      "resolve-identity",
+      "create-repository",
+      "initialize-template",
+      "acquire-resources",
+      "prepare-assets",
+      "validate-structure",
+      "generate-description",
+      "build",
+      "static-test",
+      "browser",
+      "preview",
+      "visual-metadata",
+      "wallpaper-engine",
+      "package-check",
+      "gate-publish",
+      "official-editor-pre-submit",
+      "official-editor-ui-pre-submit",
+      "official-editor-submit",
+      "tag-workshop",
+      "publish-repository",
+      "push-github",
+      "add-to-collection",
+      "release-finalize"
+    ]
+  },
+  "versionTag": "v1.0.0",
+  "projectId": "wallpaper-aris",
+  "package": {
+    "name": "aris-wallpaper",
+    "version": "1.0.0"
+  },
+  "files": [
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_1.ogg",
+      "sha256": "8ecebb7952a7c5992a43c9a492fe06b524093f4b431f408cf0741ba8e83ec218",
+      "size": 31289
+    },
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_2_1.ogg",
+      "sha256": "1bdbabfdc2a01858f4e2c40005cdb3e0569e75f1ef316aebf4186531a14631e1",
+      "size": 16194
+    },
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_2_2.ogg",
+      "sha256": "f44ef6529652fc32c5fd9457d8b7a35ad23ab01eb6ebde9ed7f6abaf2593ea6a",
+      "size": 36365
+    },
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_3_1.ogg",
+      "sha256": "46bd30123cf6534a49fd9e073785fdb6f2d9f0a33ce71773d4255bfee2774fe9",
+      "size": 19026
+    },
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_3_2.ogg",
+      "sha256": "fdae5e87d657bf22261ba4ff89a4e7b13e45b6723565e0b71fb0d7b05f801670",
+      "size": 30886
+    },
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_3_3.ogg",
+      "sha256": "86ede32063638e286f7d3e451d3d2b460ec8d122782ae8989f803b1ffc8b03c7",
+      "size": 28763
+    },
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_4_1.ogg",
+      "sha256": "ef5b37bad1cd5723585c173d38229b610861365a9957d343c448c638ab0658f0",
+      "size": 40006
+    },
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_4_2.ogg",
+      "sha256": "35066a44ec548ec6c5eb3c1f1e9aaab62e8ce1ad8184c53a8eeac32c31df90cb",
+      "size": 46465
+    },
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_5_1.ogg",
+      "sha256": "c0f183092cd61d37999365af1018aa6710c2bc3c85b4191619f634fc8b23f03f",
+      "size": 22153
+    },
+    {
+      "path": "assets/aris/audio/ja/aris_memoriallobby_5_2.ogg",
+      "sha256": "c83d49d4a1c6deec1b693aece793e66bcc88d3b5f29d97df3d979e23a1138175",
+      "size": 42653
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_1.ogg",
+      "sha256": "16e9e5f26dd9a4005498d55f4cda58662a68182cb45eaa0d9d2a0772e63b3a71",
+      "size": 31828
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_2_1.ogg",
+      "sha256": "86210219dca46f8bc8df0a2383ee54958248494dc438fad0e18f42883f939d40",
+      "size": 15147
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_2_2.ogg",
+      "sha256": "1e08a79a55427bb42d346c1a2c2c530f2ec0338e05e78efc42fe2c85c66c870b",
+      "size": 33948
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_3_1.ogg",
+      "sha256": "a292851ec6ff3a87811ffe94e66fd2f19c14b7d227813922b97f92c8ee667965",
+      "size": 17589
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_3_2.ogg",
+      "sha256": "db416a09734c1811cf5cf646394b936e86b0c9db2f45e042a978f3ca171e6820",
+      "size": 28975
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_3_3.ogg",
+      "sha256": "0ee6a46f09b58b9b045d3c906b01d550f8fc5c1433e986f127d65eff421aa357",
+      "size": 21804
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_4_1.ogg",
+      "sha256": "b642547a1f2448008e40ae0bb9bf40479fa52d9d54d815719ac128efd02dbc3f",
+      "size": 35970
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_4_2.ogg",
+      "sha256": "11e3a330d1592d0d5f6d0e3f3a5c447cc155817de079a99d1fc2379188acf99c",
+      "size": 40104
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_5_1.ogg",
+      "sha256": "0d254d45b2dad2848a8826bdbe877a4e232bc4568c3ff1cf6501ff50382d2a99",
+      "size": 19829
+    },
+    {
+      "path": "assets/aris/audio/ko/aris_memoriallobby_5_2.ogg",
+      "sha256": "7140ad93e4a5d81f0fa34a0fa2e8c48c54c6316da39db9e874d18b0c1fa31424",
+      "size": 38394
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_1.ogg",
+      "sha256": "6305ab601eecf5b554588f7f71368aa2e23970929e0bebb911006e898d43c57c",
+      "size": 38954
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_2_1.ogg",
+      "sha256": "d9c65ff3bf1d99de7cc3a74130b36f331fd5882e8b77121b0f62f24e7b96efd8",
+      "size": 25539
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_2_2.ogg",
+      "sha256": "d7a5c51edffae1e60b70e6d85b983b41188ccd96974fbcb208e52394605caa1c",
+      "size": 57271
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_3_1.ogg",
+      "sha256": "e2b96ec9b73505e4cf61549fea0ee4f58499677e82f7b45ceb6670ee487bd302",
+      "size": 28916
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_3_2.ogg",
+      "sha256": "853bdcb80e5c30472c402e2afe7051e768157961e2ca9373e284bacd34b98e5c",
+      "size": 55190
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_3_3.ogg",
+      "sha256": "bf3894c9e856cccedc632fcc1e6f1a1815648824bf6f1601f8ed6d9bdd7b5627",
+      "size": 63790
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_4_1.ogg",
+      "sha256": "61990ae8c5b4c99e107d238f0b79d76d03a5aedbefa75066a159fa9fdf01d416",
+      "size": 70165
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_4_2.ogg",
+      "sha256": "65935c9de32dd332fe68326dfcee13eba291dac8edeaac2381db488aa63df72b",
+      "size": 82424
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_5_1.ogg",
+      "sha256": "b1690600dac1a8781f6fc16bfa36ba037ef20df771d7aa4a041aa69c522a6574",
+      "size": 33767
+    },
+    {
+      "path": "assets/aris/audio/zh-cn/aris_memoriallobby_5_2.ogg",
+      "sha256": "c709155a2cb7475958e44ed92892c6a5c87e759d7d8c5ceb49f49c2e0b93ea73",
+      "size": 69166
+    },
+    {
+      "path": "assets/aris/bgm/my-character-bgm.flac",
+      "sha256": "25a1133b27d6b3f18bea6657faa07a0f37f1c8d2abd1690a18ee61fda0d6315d",
+      "size": 922549
+    },
+    {
+      "path": "assets/aris/model-4k/Aris_home.png",
+      "sha256": "3eed0a408a4fd9fd4a491932cf98c650650a6739523ea3f35b8b6c008c6b5bdb",
+      "size": 2246476
+    },
+    {
+      "path": "assets/aris/model-4k/Aris_home2.png",
+      "sha256": "c5040c63bbea8cc6110f08216139c9fe75fbb5eeb78c256763471f8c0640eb84",
+      "size": 1459337
+    },
+    {
+      "path": "assets/aris/model-4k/my-character.atlas",
+      "sha256": "f0c3d3ecd60ae42ce94b558a4ece5a5bbb20e22174cd572e2c986c7ba7dace2a",
+      "size": 11714
+    },
+    {
+      "path": "assets/aris/model-4k/my-character.skel",
+      "sha256": "38728768d5e1a5fe5fc56235b730f5e063837395b0099dd8260096ba0d3d5d95",
+      "size": 320985
+    },
+    {
+      "path": "assets/aris/model-8k/Aris_home.png",
+      "sha256": "3eed0a408a4fd9fd4a491932cf98c650650a6739523ea3f35b8b6c008c6b5bdb",
+      "size": 2246476
+    },
+    {
+      "path": "assets/aris/model-8k/Aris_home2.png",
+      "sha256": "c5040c63bbea8cc6110f08216139c9fe75fbb5eeb78c256763471f8c0640eb84",
+      "size": 1459337
+    },
+    {
+      "path": "assets/aris/model-8k/my-character.atlas",
+      "sha256": "f0c3d3ecd60ae42ce94b558a4ece5a5bbb20e22174cd572e2c986c7ba7dace2a",
+      "size": 11714
+    },
+    {
+      "path": "assets/aris/model-8k/my-character.skel",
+      "sha256": "38728768d5e1a5fe5fc56235b730f5e063837395b0099dd8260096ba0d3d5d95",
+      "size": 320985
+    },
+    {
+      "path": "assets/aris/model/Aris_home.png",
+      "sha256": "3eed0a408a4fd9fd4a491932cf98c650650a6739523ea3f35b8b6c008c6b5bdb",
+      "size": 2246476
+    },
+    {
+      "path": "assets/aris/model/Aris_home2.png",
+      "sha256": "c5040c63bbea8cc6110f08216139c9fe75fbb5eeb78c256763471f8c0640eb84",
+      "size": 1459337
+    },
+    {
+      "path": "assets/aris/model/my-character.atlas",
+      "sha256": "f0c3d3ecd60ae42ce94b558a4ece5a5bbb20e22174cd572e2c986c7ba7dace2a",
+      "size": 11714
+    },
+    {
+      "path": "assets/aris/model/my-character.skel",
+      "sha256": "38728768d5e1a5fe5fc56235b730f5e063837395b0099dd8260096ba0d3d5d95",
+      "size": 320985
+    },
+    {
+      "path": "assets/index-D-Poxv4V.js",
+      "sha256": "06dfb356f55d8bcb17431725f22c5e505009767e3f36b3ef20ab49af9fe41a06",
+      "size": 152770
+    },
+    {
+      "path": "assets/index-Dvrd4XH3.css",
+      "sha256": "7edd305a4bec7d64c5dd9193116f29e99151cbc63cf52bd0f2ecf1be9e02bcf6",
+      "size": 11894
+    },
+    {
+      "path": "index.html",
+      "sha256": "c9d57bcd526454d98700ee64eb9ad90441ddde2126b6862340bc67d3b6a5015f",
+      "size": 580
+    },
+    {
+      "path": "logging-bootstrap.js",
+      "sha256": "241c98017502d02e3f2dfc874d3bd57a7899d4da6a45c21090bef3953cc98eef",
+      "size": 7693
+    },
+    {
+      "path": "OFFLINE-README.txt",
+      "sha256": "182a3b541550c70827fdca7e6187e5014781c8b3fd8669a2a36c6f264de089b9",
+      "size": 1175
+    },
+    {
+      "path": "preview.gif",
+      "sha256": "8dc8c5dc65533b61764ef30cd9069b65f09de4a32ccef8357f6a8efa06a841d6",
+      "size": 924586
+    },
+    {
+      "path": "project.json",
+      "sha256": "60e2b98e9a64a83b8e5b688fdf24a6d8bd7aa2a9182db7557e1deac67d238056",
+      "size": 16714
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "sha256": "aa6382fc728b8ecdf735dc4c5945267e69e3d404320ba873eb7ed58c6d035db1",
+      "size": 1507
+    },
+    {
+      "path": "vendor/spine-webgl-4.2.js",
+      "sha256": "faccf252486de234c69a045aa6024b6688ded578eff09103607adfaedd7752b6",
+      "size": 554544
+    }
+  ],
+  "contentDigest": "429c88580c49b1b169457351e3f9cefd8cb48e6dea2ef14a84994ff51cfd68bd",
+  "manifestDigest": "504169fd6a85cb9c15703f1bf0c1d76b85261cef7210ff309b1ab0263be5ecc9"
+}
